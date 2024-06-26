@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url();
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+form{
+    margin: 0  auto;
+    text-align: center;
+}
+
+input {
+    border: 1px solid #ccc;
+    background-color: #333;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+    font-size: 1rem;
+}
+
+textarea:focus, input:focus {
+    outline: 1px solid blue;
+}
+
+label{
+   color: white; 
+   font-size: 1.5rem;
+}
+
+select{
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: #333;
+    color: #d3d3d3;
+}
+
+button{
+    background-color: rgb(45, 45, 145);
+    color: #ccc;
+}
+
+input, select, button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: beige;
+    cursor: pointer;
+}

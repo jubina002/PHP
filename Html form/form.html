@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="wrapper-main">
+        <form action="form.html" method="get">
+
+            <label for="firstname">Firstname</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+            <br><br>
+            <label for="lastname">Lastname</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+            <br><br>
+            <label for="message">Write something cool</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="write a message..." width="100%"></textarea>
+            <br><br>
+            <label>Pick your hobby</label><br>
+            <input type="radio" id="hobbies" name="hobby" value="Basketball">
+            <label for="hobbies">Basketball</label>
+            <input type="radio" id="hobbies" name="hobby" value="Dance">
+            <label for="hobbies">Dance</label>
+            <input type="radio" id="hobbies" name="hobby" value="Swimming">
+            <label for="hobbies">Swimming</label>
+            <br><br>
+            <label>What pets do you have?</label><br>
+            <input type="checkbox" id="petdog" name="petdog" value="dog">
+            <label for="petdog">Dog</label>
+            <input type="checkbox" id="petcat" name="petcat" value="cat">
+            <label for="petcat">Cat</label>
+            <input type="checkbox" id="petbird" name="petbird" value="bird">
+            <label for="petbird">Bird</label>
+            <br><br>
+            <label>Car type u own? </label><br>
+            <select name="cartype" id="cartype">
+                <option value="none">none</option>
+                <option value="Ford">Ford</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Mustang">Mustang</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Mercedez">Mercedez</option>
+            </select><br><br>
+            <button type="submit" vlaue="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
