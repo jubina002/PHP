@@ -1,0 +1,66 @@
+/* main.css */
+
+/* Error message */
+.calc-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Result message */
+.calc-result {
+    color: rgba(163, 4, 4, 0.922);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Basic styling for input fields */
+input[type="number"], select, button {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+    width: 150px;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Optional: Highlight active input */
+input[type="number"]:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+/* Styling for select dropdown */
+select {
+    width: 110px;
+}
+
+/* Button styling */
+button {
+    background-color: rgb(144, 144, 231);
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #6fa8dc;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    input[type="number"], select, button {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+        margin-top: 5px;
+    }
+    button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
